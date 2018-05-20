@@ -1,0 +1,193 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{ 
+    
+    align-content: center;
+    background-color: #4aaaa5;
+}
+
+
+
+.parent{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: #ffffff;
+    border-bottom-color: red;
+    border-bottom:50px;
+    width: 100%;
+    height: 100px;
+}
+
+#header{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 100px;   
+}
+
+
+p{
+    margin-bottom:20px;
+}
+
+input[type=text] {
+    width: 9px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+#fname {
+    width: 915px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    Resize: none;
+}
+
+#email{
+    width: 915px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    Resize: none;
+}
+textarea {
+    width: 915px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.pfirst{
+    padding-top: 20px;
+}
+.toptittle{
+    color: #4aaaa5;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+
+.image{
+    color: #4aaaa5;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 150px; 
+    width: 150px;  
+}
+
+.AGauche{
+    float:left;
+    margin-right: 25px;
+    
+}
+
+.goodsizepicture{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 25px;
+    
+}
+
+.mybutton{
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+
+#MyName{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    border-left: 10px solid #ffffff;
+    width: 300px;
+    float: left;
+}
+
+#MyNavigation{
+    background-color: #ffffff;
+    float: right;
+    margin-top:30px;
+    padding-top: 45px;
+    padding-right: 30px;
+}
+
+#MainBody{
+    height: Auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    line-height: 20px;
+    padding: 15px;
+
+}
+
+#MyName{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px; 
+}
+
+footer{
+    background-color: #666666;
+    color: #ffffff;
+   
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+
+li{
+    display: inline;
+    float: left;
+    font-size: 15px;
+    
+}
+
+a {
+
+}
+
+a:link{
+    color: #777777; 
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color:hotpink;
+    text-decoration: none;
+}
+
+a:active{
+    color: blue;
+    text-decoration: none;
+}
+
